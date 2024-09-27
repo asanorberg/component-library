@@ -18,7 +18,7 @@ const sizes = {
 const Button = ({ size, color, children, disabled }) => {
   return (
     <button
-      className={`rounded-lg flex-col justify-center items-center max-w-fit ${sizes[size]} ${buttonColor[color]}`}
+      className={`rounded-lg flex flex-col justify-center items-center max-w-fit ${sizes[size]} ${buttonColor[color]}`}
       disabled={disabled}
     >
       {children}
